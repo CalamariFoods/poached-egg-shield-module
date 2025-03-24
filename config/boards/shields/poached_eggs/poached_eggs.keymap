@@ -24,7 +24,7 @@
                 &kp ESC     &kp N1      &kp N2      &kp N3      &kp N4      &kp N5                              &kp N6      &kp N7      &kp N8      &kp N9      &kp N0      &trans
                 &trans      &kp EXCL    &kp AT      &kp HASH    &kp DOLLAR  &kp PRCNT                           &kp SEMI    &kp SQT     &kp LBKT    &kp RBKT    &kp NUBS    &trans
                 &trans      &kp CARET   &kp AMPS    &kp ASTRK   &kp LPAR    &kp RPAR                            &kp GRAVE   &kp EQUAL   &kp COMMA   &kp DOT     &kp SLASH   &trans
-                &trans      &kp LGUI    &trans      &trans      &trans      &trans      &trans     &trans       &kp DEL     &trans      &trans      &trans      &kp BSLH    &trans
+                &trans      &kp LGUI    &trans      &trans      &trans      &trans      &trans     &kp DEL      &trans     &trans      &trans      &trans      &kp BSLH    &trans
             >;
         };
 
@@ -33,7 +33,7 @@
                  &trans     &kp F1      &kp F2      &kp F3      &kp F4      &kp F5                              &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9   &kp KP_DIVIDE    &none
                  &trans     &kp F6      &kp F7      &kp F8      &kp F9      &kp F10                             &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6   &kp KP_ASTERISK  &none
                  &trans     &trans      &trans      &trans      &kp F12     &kp F12                             &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3   &kp KP_MINUS     &none
-                 &trans     &trans      &trans      &trans      &trans      &trans      &trans     &trans       &trans  &kp KP_NUMBER_0  &kp KP_DOT       &kp KP_ENTER      &kp KP_PLUS      &none
+                 &trans     &trans      &trans      &trans      &trans      &trans      &trans     &kp LANG1       &trans  &kp KP_NUMBER_0  &kp KP_DOT       &kp KP_ENTER      &kp KP_PLUS      &none
             >;
         };
 
@@ -42,7 +42,7 @@
                 &bt BT_CLR      &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4                         &none       &kp HOME    &kp UP      &kp END     &none       &none
                 &studio_unlock  &none        &none        &none        &none        &none                                &none       &kp LEFT    &kp DOWN    &kp RIGHT   &none       &none
                 &kp LSHFT       &kp LSHFT    &none        &none        &none        &none                                &none       &kp PG_UP   &kp PSCRN   &kp PG_DN   &none       &none
-                &trans          &trans       &trans       &none        &kp LGUI     &none        &none       &none       &none       &none       &none       &kp K       &kp E       &kp N
+                &trans          &trans       &trans       &none        &kp LGUI     &none        &kp LANG2       &none       &none       &none       &none       &kp K       &kp E       &kp N
             >;
         };
 
