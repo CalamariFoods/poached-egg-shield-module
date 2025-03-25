@@ -12,10 +12,10 @@
 
         default_layer {
             bindings = <
-                &kp LALT    &kp Q       &kp W       &kp E       &kp R       &kp T                                     &kp Y            &kp U        &kp I                  &kp O       &kp P           &kp HOME
-                &kp LCTRL   &kp A       &kp S       &kp D       &kp F       &kp G                                     &kp H            &kp J        &kp K                  &kp L       &mt LCTRL RET   &kp END
-                &kp LSHFT   &mt LSHFT Z &kp X       &kp C       &kp V       &kp B                                     &kp N            &kp M        &kp COMMA              &kp DOT     &mt LSHFT MINUS &mo 4
-                &mo 4       &kp LALT    &kp LCTRL   &kp PSCRN   &kp LGUI    &lt 1 SPACE   &lt 2 TAB   &mt LANG2 LANG1 &lt 3 BSPC       &kp C_MUTE   &mt C_VOL_UP C_VOL_DN  &none       &lt 4 ESC       &kp DEL
+                &kp ESC    &kp Q       &kp W       &kp E       &kp R       &kp T                                     &kp Y            &kp U        &kp I                  &kp O       &kp P           &kp HOME
+                &kp TAB    &kp A       &kp S       &kp D       &kp F       &kp G                                     &kp H            &kp J        &kp K                  &kp L       &mt LCTRL RET   &kp END
+                &kp LSHFT  &mt LSHFT Z &kp X       &kp C       &kp V       &kp B                                     &kp N            &kp M        &kp COMMA              &kp DOT     &mt LSHFT MINUS &mo 4
+                &kp LCTRL  &kp LCTRL   &kp LALT    &kp LGUI    &kp SPACE   &lt 1 SPACE   &lt 2 TAB   &mt LANG2 LANG1 &lt 3 BSPC       &kp C_MUTE   &mt C_VOL_UP C_VOL_DN  &kp PSCRN   &lt 4 ESC       &kp DEL
             >;
         };
 
@@ -24,7 +24,7 @@
                 &kp ESC     &kp N1      &kp N2      &kp N3      &kp N4      &kp N5                              &kp N6      &kp N7      &kp N8      &kp N9      &kp N0      &trans
                 &trans      &kp EXCL    &kp AT      &kp HASH    &kp DOLLAR  &kp PRCNT                           &kp SEMI    &kp SQT     &kp LBKT    &kp RBKT    &kp NUBS    &trans
                 &trans      &mt LSHFT CARET   &kp AMPS    &kp ASTRK   &kp LPAR    &kp RPAR                      &kp GRAVE   &kp EQUAL   &kp COMMA   &kp DOT     &mt LSHFT SLASH   &trans
-                &trans      &kp LGUI    &trans      &trans      &trans      &trans      &trans     &trans       &kp BSPC     &trans      &trans      &trans      &kp BSLH    &trans
+                &trans      &kp LGUI    &trans      &trans      &LGUI       &trans      &trans     &kp DEL      &kp BSPC     &trans      &trans      &trans      &kp BSLH    &trans
             >;
         };
 
