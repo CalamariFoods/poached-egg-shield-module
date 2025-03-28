@@ -24,7 +24,7 @@
                 &kp ESC    &kp Q       &kp W       &kp E       &kp R       &kp T                                     &kp Y            &kp U        &kp I                  &kp O       &kp P           &kp HOME
                 &kp TAB    &kp A       &kp S       &kp D       &kp F       &kp G                                     &kp H            &kp J        &kp K                  &kp L       &mt LCTRL RET   &kp END
                 &kp LSHFT  &mt LSHFT Z &kp X       &kp C       &kp V       &kp B                                     &kp N            &kp M        &kp COMMA              &kp DOT     &mt LSHFT MINUS &kp CAPS
-                &kp LCTRL  &kp LCTRL   &kp LALT    &kp LGUI    &kp SPACE   &lt 1 SPACE   &lt 2 TAB        &td0       &lt 3 BSPC       &kp C_MUTE   &mt C_VOL_UP C_VOL_DN  &kp PSCRN   &lt 4 ESC       &kp DEL
+                &kp LCTRL  &kp LCTRL   &kp LALT    &kp LGUI    &kp SPACE   &lt 1 SPACE   &lt 2 TAB        &td0       &lt 3 BSPC       &kp C_MUTE   &mt C_VOL_UP C_VOL_DN  &kp PSCRN   &kp ESC         &kp DEL
             >;
         };
 
@@ -57,10 +57,10 @@
 
         mouse_layer {
             bindings = <
-                &none           &none          &none           &none           &none        &none                                &mkp MB4       &none          &mmv MOVE_UP    &none           &msc SCRL_UP   &none
-                &none           &none          &none           &none           &none        &none                                &mkp MB5       &mmv MOVE_LEFT &mmv MOVE_DOWN  &mmv MOVE_RIGHT &msc SCRL_DOWN &none
-                &none           &none          &none           &none           &none        &none                                &none          &none          &mkp MB1        &mkp MB2        &mkp MB3       &none
-                &none           &none          &none           &none           &none        &none   &none       &none            &mkp MB1       &none          &none           &none           &none          &none
+                &none           &none          &none           &none           &none        &none                                &mkp MB4       &mkp MB1       &mmv MOVE_UP    &mkp MB2        &none          &none
+                &none           &none          &none           &none           &none        &none                                &mkp MB5       &mmv MOVE_LEFT &mmv MOVE_DOWN  &mmv MOVE_RIGHT &mkp MB1       &none
+                &none           &none          &none           &none           &none        &none                                &mkp MB3       &none          &none           &none           &msc SCRL_UP   &none
+                &none           &none          &none           &none           &none        &none   &none       &none            &none          &none          &none           &none           &msc SCRL_DOWN &none
             >;
         };
     };
