@@ -33,10 +33,10 @@
         key-positions = <45 47>;
         bindings = <&msc SCRL_DOWN>;
       };
-      combo_mb4 {
+      combo_SHFT {
         timeout-ms = <50>;
-        key-positions = <31 32>;
-        bindings = <&mkp MB4>;
+        key-positions = <24 25>;
+        bindings = <&kp LSHFT>;
       };
     };
 
@@ -49,7 +49,7 @@
                 &kp ESC    &kp Q       &kp W       &kp E       &kp R       &kp T                                     &kp Y            &kp U           &kp I           &kp O           &kp P           &kp HOME
                 &kp TAB    &kp A       &kp S       &kp D       &kp F       &kp G                                     &kp H            &kp J           &kp K           &kp L           &mt LCTRL RET   &kp END
                 &kp LSHFT  &kp Z       &kp X       &kp C       &kp V       &kp B                                     &kp N            &kp M           &mmv MOVE_UP    &mkp MB1        &mt LSHFT MINUS &kp CAPS
-                &kp LCTRL  &kp LSHFT   &kp LALT    &kp LGUI    &kp LSHFT   &lt 1 SPACE   &lt 2 TAB        &td0       &lt 3 BSPC       &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT &kp ESC         &kp DEL
+                &kp LCTRL  &kp LCTRL   &kp LALT    &kp LGUI    &kp LSHFT   &lt 1 SPACE   &lt 2 TAB        &td0       &lt 3 BSPC       &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT &kp ESC         &kp DEL
             >;
         };
 
